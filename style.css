@@ -1,0 +1,86 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+#root{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    background-color: rgb(14, 76, 55);
+    position:fixed;
+    width: 100vw;
+    height: 40px;
+    max-width: 1000px;
+    color:white;
+}
+.header-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 45px;
+}
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: -6px;
+}
+.nav-bar ul li{
+    list-style: none;
+    padding: 5px 20px;
+}
+#order-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:40px 45px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.order-details{
+    margin-top: 15px;
+}
+.order-option{
+    font-size: 0.7rem;
+    color: rgb(88, 87, 87);
+}
+.order-num{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.order-btns{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+button{
+    appearance: none;
+    border: 1px solid rgb(14, 76, 55);
+    border-radius: 10px; 
+    color: rgb(14, 76, 55);
+    background-color: white;
+}
+.active{
+    background-color: rgb(14, 76, 55);
+    color: white;
+}
+#info-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.info-section{
+    padding:15px;
+    font-size: 0.7rem;
+    color:rgb(76, 72, 72)
+}
+.info-section div{
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color:black
+}
